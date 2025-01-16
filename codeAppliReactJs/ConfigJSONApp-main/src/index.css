@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.2); /* Zoom de 120% */
+}
+
+input[type="file"] {
+  margin: 20px 0;
+}
+
+.formulae-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.formulae-button:hover {
+  background-color: #218838;
+}
+
+.table-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table-modal h2 {
+  margin-top: 0;
+}
+
+.table-modal pre {
+  background: #f6f6f6;
+  padding: 10px;
+  overflow: auto;
+  max-height: 300px;
+}
+
+.table-modal button {
+  display: block;
+  margin: 20px auto 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+}
+
+tr:nth-child(even) {
+  background-color: #2887e6;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(151, 151, 151);
+}
+
+th {
+  background-color: rgb(0, 102, 255);
+}
+
+input[type="text"]:hover {
+  transform: scale(1.1); /* Zoom de 120% */
+}
+
+h3 {
+  text-align: center;
+}
+
+.saveButton {
+  text-align: center;
+}
+
+.jer-value-and-buttons {
+  font-family: Snell Roundhand, cursive;
+}
+
+.jer-editor-container{
+  width: 70vw;
+  max-width: 90vw !important;
+}
+
+.select-style {
+  width: 200px;
+  height: 35px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.fixed-position {
+  position: fixed;
+  top: 50%;
+  right: 20px; 
+  transform: translateY(-50%);
+}
+
+
+
+.fixed-position .select-style {
+  margin-top: 10px; /* Un petit espace entre le titre et le select */
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espace entre les éléments */
+}
+
+.form-container label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-container button {
+  align-self: flex-start; /* Aligne les boutons au début (gauche) */
+  margin-top: 10px;
+}
